@@ -4,11 +4,10 @@
 /*                  https://offsets.imtheo.lol                  
 /* -------------------------------------------------------------
 /*  Dumped With     : RbxDumperV2                               
-/*  Source code     : https://git.imtheo.lol/theo/RbxDumperV2   
 /*  Roblox Version  : version-e7d81637d42c4b23
-/*  Dumper Version  : 2.2.2
-/*  Dumped At       : 19:18 07/09/2026 (GMT)
-/*  Total Offsets   : 391
+/*  Dumper Version  : 2.2.0
+/*  Dumped At       : 19:49 07/09/2026 (GMT)
+/*  Total Offsets   : 387
 /* -------------------------------------------------------------
 /*  Join the discord!                                           
 /*  https://offsets.imtheo.lol/discord                          
@@ -53,7 +52,7 @@ namespace Offsets {
 
     namespace BasePart {
          inline constexpr uintptr_t CastShadow = 0x135;
-         inline constexpr uintptr_t Color3 = 0x1a8;
+         inline constexpr uintptr_t Color3 = 0x14a;
          inline constexpr uintptr_t Locked = 0x136;
          inline constexpr uintptr_t Massless = 0x137;
          inline constexpr uintptr_t Primitive = 0x188;
@@ -93,10 +92,6 @@ namespace Offsets {
     namespace ByteCode {
          inline constexpr uintptr_t Pointer = 0x10;
          inline constexpr uintptr_t Size = 0x20;
-    }
-
-    namespace CachedItem {
-         inline constexpr uintptr_t FileMeshData = 0x40;
     }
 
     namespace Camera {
@@ -182,15 +177,6 @@ namespace Offsets {
          inline constexpr uintptr_t RealDataModel = 0x1f8;
     }
 
-    namespace FileMeshData {
-         inline constexpr uintptr_t AABBMax = 0x2bc;
-         inline constexpr uintptr_t AABBMin = 0x2b0;
-         inline constexpr uintptr_t Faces = 0x30;
-         inline constexpr uintptr_t FacesEnd = 0x38;
-         inline constexpr uintptr_t Vertices = 0x0;
-         inline constexpr uintptr_t VerticesEnd = 0x8;
-    }
-
     namespace GuiBase2D {
          inline constexpr uintptr_t AbsolutePosition = 0x0;
          inline constexpr uintptr_t AbsoluteRotation = 0xe8;
@@ -266,16 +252,6 @@ namespace Offsets {
          inline constexpr uintptr_t This = 0x8;
     }
 
-    namespace LRUHolder {
-         inline constexpr uintptr_t MemEnforcedLRUCache = 0x20;
-    }
-
-    namespace LRUNode {
-         inline constexpr uintptr_t AssetID = 0x10;
-         inline constexpr uintptr_t CachedItem = 0x40;
-         inline constexpr uintptr_t Next = 0x0;
-    }
-
     namespace Lighting {
          inline constexpr uintptr_t Ambient = 0xd0;
          inline constexpr uintptr_t Brightness = 0x118;
@@ -331,12 +307,19 @@ namespace Offsets {
          inline constexpr uintptr_t WoodPlanks = 0x15;
     }
 
-    namespace MemEnforcedLRUCache {
-         inline constexpr uintptr_t Head = 0x8;
+    namespace MeshContentProvider {
+         inline constexpr uintptr_t AssetID = 0x0;
+         inline constexpr uintptr_t Cache = 0x0;
+         inline constexpr uintptr_t LRUCache = 0x0;
+         inline constexpr uintptr_t MeshData = 0x0;
+         inline constexpr uintptr_t ToMeshData = 0x0;
     }
 
-    namespace MeshContentProvider {
-         inline constexpr uintptr_t LRUHolder = 0xd8;
+    namespace MeshData {
+         inline constexpr uintptr_t FaceEnd = 0x0;
+         inline constexpr uintptr_t FaceStart = 0x0;
+         inline constexpr uintptr_t VertexEnd = 0x0;
+         inline constexpr uintptr_t VertexStart = 0x0;
     }
 
     namespace MeshPart {
@@ -458,7 +441,7 @@ namespace Offsets {
     }
 
     namespace RunService {
-         inline constexpr uintptr_t HeartbeatFPS = 0xc8;
+         inline constexpr uintptr_t HeartbeatFPS = 0xc0;
          inline constexpr uintptr_t HeartbeatTask = 0xe0;
     }
 
@@ -516,7 +499,7 @@ namespace Offsets {
     }
 
     namespace StatsItem {
-         inline constexpr uintptr_t Value = 0x41940;
+         inline constexpr uintptr_t Value = 0xc8;
     }
 
     namespace SunRaysEffect {
@@ -591,10 +574,10 @@ namespace Offsets {
     }
 
     namespace VisualEngine {
-         inline constexpr uintptr_t Dimensions = 0xb10;
-         inline constexpr uintptr_t FakeDataModel = 0xaf0;
-         inline constexpr uintptr_t Pointer = 0x8351408;
-         inline constexpr uintptr_t RenderView = 0xc30;
+         inline constexpr uintptr_t Dimensions = 0x0;
+         inline constexpr uintptr_t FakeDataModel = 0x0;
+         inline constexpr uintptr_t Pointer = 0x0;
+         inline constexpr uintptr_t RenderView = 0x0;
     }
 
     namespace Weld {
