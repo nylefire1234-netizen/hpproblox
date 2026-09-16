@@ -7,7 +7,7 @@
 /*  Source code     : https://git.imtheo.lol/theo/RbxDumperV2   
 /*  Roblox Version  : version-4310300497aa4917
 /*  Dumper Version  : 2.2.4
-/*  Dumped At       : 12:51 15/09/2026 (GMT)
+/*  Dumped At       : 18:01 16/09/2026 (GMT)
 /*  Total Offsets   : 392
 /* -------------------------------------------------------------
 /*  Join the discord!                                           
@@ -96,7 +96,7 @@ namespace Offsets {
     }
 
     namespace CachedItem {
-         inline constexpr uintptr_t FileMeshData = 0x28;
+         inline constexpr uintptr_t FileMeshData = 0x40;
     }
 
     namespace Camera {
@@ -140,19 +140,19 @@ namespace Offsets {
     }
 
     namespace DataModel {
-         inline constexpr uintptr_t CreatorId = 0x188;
-         inline constexpr uintptr_t GameId = 0x190;
-         inline constexpr uintptr_t GameLoaded = 0x5e0;
-         inline constexpr uintptr_t JobId = 0x120;
-         inline constexpr uintptr_t PlaceId = 0x198;
-         inline constexpr uintptr_t PlaceVersion = 0x1b4;
-         inline constexpr uintptr_t PrimitiveCount = 0x428;
+         inline constexpr uintptr_t CreatorId = 0x180;
+         inline constexpr uintptr_t GameId = 0x188;
+         inline constexpr uintptr_t GameLoaded = 0x5d8;
+         inline constexpr uintptr_t JobId = 0x118;
+         inline constexpr uintptr_t PlaceId = 0x190;
+         inline constexpr uintptr_t PlaceVersion = 0x1ac;
+         inline constexpr uintptr_t PrimitiveCount = 0x420;
          inline constexpr uintptr_t ScriptContext = 0x440;
-         inline constexpr uintptr_t ServerIP = 0x5c8;
-         inline constexpr uintptr_t ToRenderView1 = 0x1d0;
+         inline constexpr uintptr_t ServerIP = 0x5c0;
+         inline constexpr uintptr_t ToRenderView1 = 0x1c8;
          inline constexpr uintptr_t ToRenderView2 = 0x8;
          inline constexpr uintptr_t ToRenderView3 = 0x28;
-         inline constexpr uintptr_t Workspace = 0x160;
+         inline constexpr uintptr_t Workspace = 0x158;
     }
 
     namespace DepthOfFieldEffect {
@@ -178,7 +178,7 @@ namespace Offsets {
     }
 
     namespace FakeDataModel {
-         inline constexpr uintptr_t Pointer = 0x8e42c98;
+         inline constexpr uintptr_t Pointer = 0x8dc2258;
          inline constexpr uintptr_t RealDataModel = 0x1f8;
     }
 
@@ -210,7 +210,7 @@ namespace Offsets {
          inline constexpr uintptr_t Size = 0x530;
          inline constexpr uintptr_t Text = 0xe00;
          inline constexpr uintptr_t TextColor3 = 0xeb0;
-         inline constexpr uintptr_t Visible = 0x578;
+         inline constexpr uintptr_t Visible = 0x5ad;
          inline constexpr uintptr_t ZIndex = 0x5a4;
     }
 
@@ -243,10 +243,10 @@ namespace Offsets {
          inline constexpr uintptr_t NameDisplayDistance = 0x1b0;
          inline constexpr uintptr_t NameOcclusion = 0x1b4;
          inline constexpr uintptr_t PlatformStand = 0x1dc;
-         inline constexpr uintptr_t RequiresNeck = 0xad;
+         inline constexpr uintptr_t RequiresNeck = 0x1dd;
          inline constexpr uintptr_t RigType = 0x1c0;
          inline constexpr uintptr_t SeatPart = 0x108;
-         inline constexpr uintptr_t Sit = 0xad;
+         inline constexpr uintptr_t Sit = 0x1dd;
          inline constexpr uintptr_t TargetPoint = 0x14c;
          inline constexpr uintptr_t UseJumpPower = 0x1e0;
          inline constexpr uintptr_t WalkTimer = 0x400;
@@ -272,7 +272,7 @@ namespace Offsets {
 
     namespace LRUNode {
          inline constexpr uintptr_t AssetID = 0x10;
-         inline constexpr uintptr_t CachedItem = 0x38;
+         inline constexpr uintptr_t CachedItem = 0x40;
          inline constexpr uintptr_t Next = 0x0;
     }
 
@@ -302,7 +302,7 @@ namespace Offsets {
     }
 
     namespace LocalScript {
-         inline constexpr uintptr_t ByteCode = 0x190;
+         inline constexpr uintptr_t ByteCode = 0x0;
          inline constexpr uintptr_t GUID = 0xd0;
          inline constexpr uintptr_t Hash = 0x1a0;
     }
@@ -357,7 +357,7 @@ namespace Offsets {
     }
 
     namespace ModuleScript {
-         inline constexpr uintptr_t ByteCode = 0x138;
+         inline constexpr uintptr_t ByteCode = 0x0;
          inline constexpr uintptr_t GUID = 0xd0;
          inline constexpr uintptr_t Hash = 0x148;
          inline constexpr uintptr_t IsCoreScript = 0x0;
@@ -415,14 +415,14 @@ namespace Offsets {
     }
 
     namespace Primitive {
-         inline constexpr uintptr_t AssemblyAngularVelocity = 0xec;
-         inline constexpr uintptr_t AssemblyLinearVelocity = 0xe0;
-         inline constexpr uintptr_t Flags = 0x1be;
+         inline constexpr uintptr_t AssemblyAngularVelocity = 0x104;
+         inline constexpr uintptr_t AssemblyLinearVelocity = 0xf8;
+         inline constexpr uintptr_t Flags = 0x1b6;
          inline constexpr uintptr_t Material = 0x0;
-         inline constexpr uintptr_t Owner = 0x218;
-         inline constexpr uintptr_t Position = 0xd4;
-         inline constexpr uintptr_t Rotation = 0xb0;
-         inline constexpr uintptr_t Size = 0x1c4;
+         inline constexpr uintptr_t Owner = 0x210;
+         inline constexpr uintptr_t Position = 0xec;
+         inline constexpr uintptr_t Rotation = 0xc8;
+         inline constexpr uintptr_t Size = 0x1bc;
          inline constexpr uintptr_t Validate = 0x6;
     }
 
@@ -463,7 +463,7 @@ namespace Offsets {
     }
 
     namespace Script {
-         inline constexpr uintptr_t ByteCode = 0x190;
+         inline constexpr uintptr_t ByteCode = 0x0;
          inline constexpr uintptr_t GUID = 0xd0;
          inline constexpr uintptr_t Hash = 0x1a0;
     }
@@ -503,7 +503,7 @@ namespace Offsets {
     }
 
     namespace SpawnLocation {
-         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x3d;
+         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x1f0;
          inline constexpr uintptr_t Enabled = 0x1f1;
          inline constexpr uintptr_t ForcefieldDuration = 0x1e8;
          inline constexpr uintptr_t Neutral = 0x1f2;
@@ -516,7 +516,7 @@ namespace Offsets {
     }
 
     namespace StatsItem {
-         inline constexpr uintptr_t Value = 0x1814a;
+         inline constexpr uintptr_t Value = 0x34f0;
     }
 
     namespace SunRaysEffect {
@@ -542,7 +542,7 @@ namespace Offsets {
          inline constexpr uintptr_t JobName = 0x18;
          inline constexpr uintptr_t JobStart = 0xc8;
          inline constexpr uintptr_t MaxFPS = 0xb0;
-         inline constexpr uintptr_t Pointer = 0x8bdd8e8;
+         inline constexpr uintptr_t Pointer = 0x8b5cee8;
     }
 
     namespace Team {
@@ -593,7 +593,7 @@ namespace Offsets {
     namespace VisualEngine {
          inline constexpr uintptr_t Dimensions = 0xb10;
          inline constexpr uintptr_t FakeDataModel = 0xaf0;
-         inline constexpr uintptr_t Pointer = 0x846f768;
+         inline constexpr uintptr_t Pointer = 0x83f0a08;
          inline constexpr uintptr_t RenderView = 0xc30;
          inline constexpr uintptr_t ViewMatrix = 0x1b0;
     }
